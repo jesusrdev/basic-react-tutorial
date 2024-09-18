@@ -1,10 +1,10 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+// import reactLogo from "./assets/react.svg";
+// import viteLogo from "/vite.svg";
 import "./App.css";
 
-import Parrafo from "./Parrafo.jsx";
-import Link from "./Link.jsx";
-import Counter from "./Counter.jsx";
+// import Parrafo from "./Parrafo.jsx";
+// import Link from "./Link.jsx";
+// import Counter from "./Counter.jsx";
 import Pokemones from "./Pokemones.jsx";
 
 function App() {
