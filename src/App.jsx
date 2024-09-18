@@ -1,35 +1,49 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+
+import Parrafo from "./Parrafo.jsx";
+import Link from "./Link.jsx";
+import Counter from "./Counter.jsx";
+import Pokemones from "./Pokemones.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
+      {/* <div>
+        <Link
+          href="https://vitejs.dev"
+          srcImagen={viteLogo}
+          alt="Vite logo"
+          className={"logo"}
+        />
+        <Link
+          href="https://react.dev"
+          srcImagen={reactLogo}
+          alt="React logo"
+          className={"logo react"}
+        />
+      </div> */}
       <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      {/* <div className="card">
+        <Counter />
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
-      </div>
-      <p className="read-the-docs">
+        <Parrafo text="hola" />
+        <Parrafo text="adios" />
+        <Parrafo text="hola de nuevo" />
+        <Parrafo>Este es un parrafo</Parrafo>
+      </div> */}
+      {/* <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
+      <div>
+        <Pokemones />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
